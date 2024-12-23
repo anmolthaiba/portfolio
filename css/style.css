@@ -26,7 +26,14 @@
     padding-right: 40px;
 }
 .nav-list li{
-    padding-right: 30px;
+    margin-right: 30px;
+}
+.nav-list li a:hover{
+    color: black;
+    text-shadow: 
+    10px 10px 10px orangered,
+    0 0 20px orangered,
+    0 0 30px orangered;
 }
 .nav-list li a{
     text-decoration: none;
@@ -37,6 +44,7 @@
     0 0 40px black,
     0 0 50px black;
 }
+
 .hero-image2{
     height: 1000px;
     background-image: url(../images/IMG_1236.jpeg);
@@ -72,16 +80,19 @@
     margin-left: 10px;
     color:orangered;
 }
-.download{
+.hire-and-cv{
+    display: flex;
+}
+.quick{
     margin:40px 0 0 60px ;
 }
-.download button{
+.quick button{
     height: 40px;
     width: 130px;
-    border-radius: 30px;
+    border-radius: 20px;
     background-color: orangered;
 }
-.download button a{
+.quick button a{
     text-decoration: none;
     color: white;
     font-size: 15px;
