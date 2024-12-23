@@ -72,3 +72,17 @@
     margin-left: 10px;
     color:orangered;
 }
+.download{
+    margin:40px 0 0 60px ;
+}
+.download button{
+    height: 40px;
+    width: 130px;
+    border-radius: 30px;
+    background-color: orangered;
+}
+.download button a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
